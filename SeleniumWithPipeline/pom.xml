@@ -30,26 +30,6 @@
            </configuration>
                
 </configuration>
-
-</plugin>
-      <plugin>
-                <groupId>net.masterthought</groupId>
-                <artifactId>maven-cucumber-reporting</artifactId>
-                <version>3.16.0</version>
-                <executions>
-                    <execution>
-                        <id>execution</id>
-                        <phase>verify</phase>
-                        <goals>
-                            <goal>generate</goal>
-                        </goals>
-                        <configuration>
-                            <projectName>SeleniumWithPipeline</projectName>
-                
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
     </plugins>
   </build>
   <dependencies>
