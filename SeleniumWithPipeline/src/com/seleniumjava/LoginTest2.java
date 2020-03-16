@@ -12,7 +12,7 @@ public class LoginTest2 {
   @Test
   public void loginTest2() {
 	  
-	  System.setProperty("webdriver.chrome.driver", "D:\\Drivers\\Chrome\\chromedriver.exe");
+	  System.setProperty("webdriver.chrome.driver", "/home/ubuntu/chromedriver");
 	  ChromeDriver driver=new ChromeDriver();
 	  driver.manage().window().maximize();
 	  driver.get("https://test.salesforce.com/");
